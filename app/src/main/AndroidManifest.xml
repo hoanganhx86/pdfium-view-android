@@ -20,7 +20,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.shockwave.pdfium.PdfActivity"
+            android:name="com.shockwave.pdfiumtest.PdfActivity"
             android:label="@string/title_activity_pdf"
             android:configChanges="orientation|screenSize|screenLayout">
         </activity>

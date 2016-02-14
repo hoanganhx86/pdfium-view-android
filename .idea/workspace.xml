@@ -1,429 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="88464717-940f-44a6-97a2-dad599c2e80a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdfium-android/src/main/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdfium-android/src/androidTest/java/com/shockwave/pdfium/ApplicationTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdfium-android/src/main/java/com/shockwave/pdfium/PdfActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdfium-android/src/main/java/com/shockwave/pdfium/PdfDocument.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdfium-android/src/main/java/com/shockwave/pdfium/PdfiumCore.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdfium-android/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdfium-android/proguard-rules.pro" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\proguard-rules.pro" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\androidTest\java\com\shockwave\pdfium\ApplicationTest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\java\com\shockwave\pdfium\PdfActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\java\com\shockwave\pdfium\PdfDocument.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\java\com\shockwave\pdfium\PdfiumCore.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\Android.mk" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\Application.mk" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\formfiller\FFL_CBA_Fontmap.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\formfiller\FFL_CheckBox.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\formfiller\FFL_ComboBox.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\formfiller\FFL_FormFiller.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\formfiller\FFL_IFormFiller.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\formfiller\FFL_ListBox.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\formfiller\FFL_Notify.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\formfiller\FFL_PushButton.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\formfiller\FFL_RadioButton.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\formfiller\FFL_TextField.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\formfiller\FFL_Utils.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\formfiller\FormFiller.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fpdf_dataavail.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fpdf_ext.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fpdf_flatten.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fpdf_fwlevent.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fpdf_progressive.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fpdf_searchex.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fpdf_sysfontinfo.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fpdf_transformpage.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fpdfdoc.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fpdfedit.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fpdfformfill.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fpdfoom.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fpdfppo.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fpdfsave.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fpdftext.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fpdfview.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fsdk_actionhandler.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fsdk_annothandler.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fsdk_baseannot.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fsdk_baseform.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fsdk_common.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fsdk_define.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fsdk_mgr.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fsdk_rendercontext.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fx_systemhandler.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fxedit\fx_edit.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fxedit\fxet_edit.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fxedit\fxet_list.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fxedit\fxet_stub.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\Consts.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\Document.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\Field.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\IJavaScript.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\Icon.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\JS_Console.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\JS_Context.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\JS_Define.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\JS_EventHandler.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\JS_GlobalData.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\JS_Module.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\JS_Object.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\JS_Runtime.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\JS_Value.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\JavaScript.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\PublicMethods.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\app.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\color.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\console.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\event.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\global.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\report.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\resource.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\util.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\jsapi\fxjs_v8.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\IPDFWindow.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\PDFWindow.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\PWL_Button.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\PWL_Caret.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\PWL_ComboBox.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\PWL_Edit.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\PWL_EditCtrl.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\PWL_FontMap.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\PWL_Icon.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\PWL_IconList.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\PWL_Label.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\PWL_ListBox.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\PWL_ListCtrl.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\PWL_Note.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\PWL_ScrollBar.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\PWL_Signature.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\PWL_SpecialButton.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\PWL_Utils.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\PWL_Wnd.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\prof.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\AndroidThreads.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Atomic.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\BasicHashtable.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\BitSet.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\BlobCache.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\ByteOrder.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\CallStack.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Compat.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Condition.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Debug.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Endian.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Errors.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\FileMap.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Flattenable.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Functor.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\JenkinsHash.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\KeyedVector.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\LinearAllocator.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\LinearTransform.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\List.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Log.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Looper.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\LruCache.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Mutex.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\NativeHandle.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Printer.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\ProcessCallStack.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\PropertyMap.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\RWLock.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\RefBase.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\SharedBuffer.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Singleton.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\SortedVector.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\StopWatch.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\String16.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\String8.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\StrongPointer.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\SystemClock.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Thread.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\ThreadDefs.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Timers.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Tokenizer.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Trace.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\TypeHelpers.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Unicode.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Vector.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\VectorImpl.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\ashmem.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\misc.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\threads.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\lib\arm64\libpdfium.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\lib\armeabi\libandroid-ndk-profiler.a" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\lib\armeabi\libpdfium.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\lib\mips\libpdfium.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\lib\x86\libpdfium.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\lib\x86_64\libpdfium.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\src\mainJNILib.cpp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\src\util.hpp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\res\layout\activity_pdf.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\res\layout\layout_pdf_page.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\res\values\strings.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/win_toolchain/7z/7z.dll" afterPath="$PROJECT_DIR$/tools/depot_tools/win_toolchain/7z/7z.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/win_toolchain/7z/7z.exe" afterPath="$PROJECT_DIR$/tools/depot_tools/win_toolchain/7z/7z.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/shockwave/pdfiumtest/PdfActivity.java" />
+      <change type="MOVED" beforePath="C:\Users\dudu\Git\pdfium-view-android\pdfium-android\src\main\java\com\shockwave\pdfium\PdfActivity.java" afterPath="$PROJECT_DIR$/pdfium-android/src/main/java/com/shockwave/pdfium/PdfView.java" />
+      <change type="MOVED" beforePath="C:\Users\dudu\Git\pdfium-view-android\pdfium-android\src\main\res\layout\activity_pdf.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pdf.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/cbuildbot" afterPath="$PROJECT_DIR$/tools/depot_tools/cbuildbot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/chrome_set_ver" afterPath="$PROJECT_DIR$/tools/depot_tools/chrome_set_ver" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/create-ntfs-junction.exe" afterPath="$PROJECT_DIR$/tools/depot_tools/create-ntfs-junction.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/cros" afterPath="$PROJECT_DIR$/tools/depot_tools/cros" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/cros_sdk" afterPath="$PROJECT_DIR$/tools/depot_tools/cros_sdk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/coverage/htmlfiles/keybd_closed.png" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/coverage/htmlfiles/keybd_closed.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/coverage/htmlfiles/keybd_open.png" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/coverage/htmlfiles/keybd_open.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/ninja-linux32" afterPath="$PROJECT_DIR$/tools/depot_tools/ninja-linux32" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/ninja-linux64" afterPath="$PROJECT_DIR$/tools/depot_tools/ninja-linux64" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/ninja-mac" afterPath="$PROJECT_DIR$/tools/depot_tools/ninja-mac" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/ninja.exe" afterPath="$PROJECT_DIR$/tools/depot_tools/ninja.exe" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/WATCHLISTS" afterPath="$PROJECT_DIR$/tools/depot_tools/WATCHLISTS" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/file/__init__.py" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/file/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/gs/__init__.py" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/gs/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/abandon.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/abandon.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/gs/acl.py" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/gs/acl.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/annotated_gclient.py" afterPath="$PROJECT_DIR$/tools/depot_tools/annotated_gclient.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_22_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_22_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/apply_issue.bat" afterPath="$PROJECT_DIR$/tools/depot_tools/apply_issue.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/apply_issue.py" afterPath="$PROJECT_DIR$/tools/depot_tools/apply_issue.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/apply_issue" afterPath="$PROJECT_DIR$/tools/depot_tools/apply_issue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/applypatch-msg" afterPath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/applypatch-msg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/basic.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/basic.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/recipe_modules/bot_update/resources/bot_update.py" afterPath="$PROJECT_DIR$/tools/depot_tools/recipe_modules/bot_update/resources/bot_update.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/services/bs.py" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/services/bs.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/buildbucket.py" afterPath="$PROJECT_DIR$/tools/depot_tools/buildbucket.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/checkout_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/checkout_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/chrome-update-create-task.bat" afterPath="$PROJECT_DIR$/tools/depot_tools/chrome-update-create-task.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/chrome-update.bat" afterPath="$PROJECT_DIR$/tools/depot_tools/chrome-update.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/chrome-update.py" afterPath="$PROJECT_DIR$/tools/depot_tools/chrome-update.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/support/chromite_wrapper" afterPath="$PROJECT_DIR$/tools/depot_tools/support/chromite_wrapper" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/cit.bat" afterPath="$PROJECT_DIR$/tools/depot_tools/cit.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/cit.py" afterPath="$PROJECT_DIR$/tools/depot_tools/cit.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/cit" afterPath="$PROJECT_DIR$/tools/depot_tools/cit" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/clang-format" afterPath="$PROJECT_DIR$/tools/depot_tools/clang-format" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/clang_format.py" afterPath="$PROJECT_DIR$/tools/depot_tools/clang_format.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/gsutil/gslib/command_runner.py" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/gsutil/gslib/command_runner.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/commit_queue.bat" afterPath="$PROJECT_DIR$/tools/depot_tools/commit_queue.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/commit_queue.py" afterPath="$PROJECT_DIR$/tools/depot_tools/commit_queue.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/commit_queue" afterPath="$PROJECT_DIR$/tools/depot_tools/commit_queue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/common_demo_functions.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/common_demo_functions.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/file/connection.py" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/file/connection.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/gs/connection.py" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/gs/connection.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/gs/cors.py" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/gs/cors.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/cpplint.py" afterPath="$PROJECT_DIR$/tools/depot_tools/cpplint.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/cpplint_chromium.py" afterPath="$PROJECT_DIR$/tools/depot_tools/cpplint_chromium.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/create-chromium-git-src" afterPath="$PROJECT_DIR$/tools/depot_tools/create-chromium-git-src" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/dart_format.py" afterPath="$PROJECT_DIR$/tools/depot_tools/dart_format.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/demo_repo.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/demo_repo.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/depot-tools-auth.py" afterPath="$PROJECT_DIR$/tools/depot_tools/depot-tools-auth.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/depot-tools-auth" afterPath="$PROJECT_DIR$/tools/depot_tools/depot-tools-auth" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/depot_tools_tutorial.demo.walkthrough.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/depot_tools_tutorial.demo.walkthrough.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/download_from_google_storage.bat" afterPath="$PROJECT_DIR$/tools/depot_tools/download_from_google_storage.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/download_from_google_storage.py" afterPath="$PROJECT_DIR$/tools/depot_tools/download_from_google_storage.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/download_from_google_storage" afterPath="$PROJECT_DIR$/tools/depot_tools/download_from_google_storage" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/download_from_google_storage_unittests.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/download_from_google_storage_unittests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/drover.py" afterPath="$PROJECT_DIR$/tools/depot_tools/drover.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/drover" afterPath="$PROJECT_DIR$/tools/depot_tools/drover" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/recipe_modules/presubmit/example.py" afterPath="$PROJECT_DIR$/tools/depot_tools/recipe_modules/presubmit/example.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/testing_support/fake_repos.py" afterPath="$PROJECT_DIR$/tools/depot_tools/testing_support/fake_repos.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/fetch.bat" afterPath="$PROJECT_DIR$/tools/depot_tools/fetch.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/fetch.py" afterPath="$PROJECT_DIR$/tools/depot_tools/fetch.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/fetch" afterPath="$PROJECT_DIR$/tools/depot_tools/fetch" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/filter_demo_output.py" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/filter_demo_output.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/fix_encoding_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/fix_encoding_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/gcl.bat" afterPath="$PROJECT_DIR$/tools/depot_tools/gcl.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/gcl.py" afterPath="$PROJECT_DIR$/tools/depot_tools/gcl.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/gcl" afterPath="$PROJECT_DIR$/tools/depot_tools/gcl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/gclient-new-workdir.py" afterPath="$PROJECT_DIR$/tools/depot_tools/gclient-new-workdir.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/gclient.bat" afterPath="$PROJECT_DIR$/tools/depot_tools/gclient.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/gclient.py" afterPath="$PROJECT_DIR$/tools/depot_tools/gclient.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/gclient" afterPath="$PROJECT_DIR$/tools/depot_tools/gclient" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/gclient_completion.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/gclient_completion.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/gclient_scm_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/gclient_scm_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/gclient_smoketest.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/gclient_smoketest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/gclient_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/gclient_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/gclient_utils_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/gclient_utils_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/testing_support/gerrit-init.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/testing_support/gerrit-init.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/gerrit_util.py" afterPath="$PROJECT_DIR$/tools/depot_tools/gerrit_util.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/testing_support/get_appengine.py" afterPath="$PROJECT_DIR$/tools/depot_tools/testing_support/get_appengine.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/win_toolchain/get_toolchain_if_necessary.py" afterPath="$PROJECT_DIR$/tools/depot_tools/win_toolchain/get_toolchain_if_necessary.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-auto-svn" afterPath="$PROJECT_DIR$/tools/depot_tools/git-auto-svn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-bash" afterPath="$PROJECT_DIR$/tools/depot_tools/git-bash" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-cache" afterPath="$PROJECT_DIR$/tools/depot_tools/git-cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/git-cherry-pick-upload.demo.1.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/git-cherry-pick-upload.demo.1.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-cherry-pick-upload" afterPath="$PROJECT_DIR$/tools/depot_tools/git-cherry-pick-upload" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-cl-upload-hook" afterPath="$PROJECT_DIR$/tools/depot_tools/git-cl-upload-hook" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-cl" afterPath="$PROJECT_DIR$/tools/depot_tools/git-cl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-crrev-parse" afterPath="$PROJECT_DIR$/tools/depot_tools/git-crrev-parse" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-crsync" afterPath="$PROJECT_DIR$/tools/depot_tools/git-crsync" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/git-drover.demo.1.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/git-drover.demo.1.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/git-drover.demo.2.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/git-drover.demo.2.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/git-drover.demo.3.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/git-drover.demo.3.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/git-drover.demo.4.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/git-drover.demo.4.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/git-drover.demo.common.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/git-drover.demo.common.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-drover" afterPath="$PROJECT_DIR$/tools/depot_tools/git-drover" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-find-releases" afterPath="$PROJECT_DIR$/tools/depot_tools/git-find-releases" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/git-footers.demo.1.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/git-footers.demo.1.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-footers" afterPath="$PROJECT_DIR$/tools/depot_tools/git-footers" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/git-freeze.demo.1.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/git-freeze.demo.1.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-freeze" afterPath="$PROJECT_DIR$/tools/depot_tools/git-freeze" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-gs" afterPath="$PROJECT_DIR$/tools/depot_tools/git-gs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/git-hyper-blame.demo.1.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/git-hyper-blame.demo.1.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/git-hyper-blame.demo.2.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/git-hyper-blame.demo.2.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/git-hyper-blame.demo.common.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/git-hyper-blame.demo.common.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-hyper-blame" afterPath="$PROJECT_DIR$/tools/depot_tools/git-hyper-blame" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-lkgr" afterPath="$PROJECT_DIR$/tools/depot_tools/git-lkgr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/git-map-branches.demo.1.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/git-map-branches.demo.1.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-map-branches" afterPath="$PROJECT_DIR$/tools/depot_tools/git-map-branches" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/git-map.demo.1.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/git-map.demo.1.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-map" afterPath="$PROJECT_DIR$/tools/depot_tools/git-map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-mark-merge-base" afterPath="$PROJECT_DIR$/tools/depot_tools/git-mark-merge-base" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/git-nav-downstream.demo.1.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/git-nav-downstream.demo.1.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-nav-downstream" afterPath="$PROJECT_DIR$/tools/depot_tools/git-nav-downstream" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/git-nav-upstream.demo.1.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/git-nav-upstream.demo.1.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-nav-upstream" afterPath="$PROJECT_DIR$/tools/depot_tools/git-nav-upstream" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/git-new-branch.demo.1.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/git-new-branch.demo.1.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-new-branch" afterPath="$PROJECT_DIR$/tools/depot_tools/git-new-branch" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-number" afterPath="$PROJECT_DIR$/tools/depot_tools/git-number" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-rebase-update" afterPath="$PROJECT_DIR$/tools/depot_tools/git-rebase-update" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-rename-branch" afterPath="$PROJECT_DIR$/tools/depot_tools/git-rename-branch" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-reparent-branch" afterPath="$PROJECT_DIR$/tools/depot_tools/git-reparent-branch" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-retry" afterPath="$PROJECT_DIR$/tools/depot_tools/git-retry" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-runhooks" afterPath="$PROJECT_DIR$/tools/depot_tools/git-runhooks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/git-squash-branch.demo.1.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/git-squash-branch.demo.1.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-squash-branch" afterPath="$PROJECT_DIR$/tools/depot_tools/git-squash-branch" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-thaw" afterPath="$PROJECT_DIR$/tools/depot_tools/git-thaw" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_utils/git-tree-prune" afterPath="$PROJECT_DIR$/tools/depot_tools/git_utils/git-tree-prune" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-try" afterPath="$PROJECT_DIR$/tools/depot_tools/git-try" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-upstream-diff" afterPath="$PROJECT_DIR$/tools/depot_tools/git-upstream-diff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_auto_svn.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_auto_svn.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_cache.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_cache.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/git_cache_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/git_cache_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_cherry_pick_upload.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_cherry_pick_upload.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_cl.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_cl.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/git_cl_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/git_cl_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/git_common_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/git_common_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/git_dates_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/git_dates_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_drover.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_drover.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/git_drover_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/git_drover_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_find_releases.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_find_releases.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_footers.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_footers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/git_footers_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/git_footers_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_freezer.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_freezer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_hyper_blame.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_hyper_blame.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/git_hyper_blame_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/git_hyper_blame_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_map.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_map.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_map_branches.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_map_branches.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_mark_merge_base.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_mark_merge_base.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_nav_downstream.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_nav_downstream.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_new_branch.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_new_branch.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_number.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_number.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/git_number_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/git_number_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_rebase_update.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_rebase_update.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/git_rebase_update_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/git_rebase_update_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_rename_branch.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_rename_branch.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_reparent_branch.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_reparent_branch.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_retry.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_retry.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/recipe_modules/git/resources/git_setup.py" afterPath="$PROJECT_DIR$/tools/depot_tools/recipe_modules/git/resources/git_setup.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_squash_branch.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_squash_branch.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_try.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_try.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_upstream_diff.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_upstream_diff.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/gn.py" afterPath="$PROJECT_DIR$/tools/depot_tools/gn.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/gn" afterPath="$PROJECT_DIR$/tools/depot_tools/gn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/gsutil.py" afterPath="$PROJECT_DIR$/tools/depot_tools/gsutil.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/gsutil/gsutil" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/gsutil/gsutil" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/gsutil_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/gsutil_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/hammer.bat" afterPath="$PROJECT_DIR$/tools/depot_tools/hammer.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/hammer" afterPath="$PROJECT_DIR$/tools/depot_tools/hammer" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/hooks.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/hooks.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/file/key.py" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/file/key.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/pyami/launch_ami.py" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/pyami/launch_ami.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/testing_support/local_rietveld.py" afterPath="$PROJECT_DIR$/tools/depot_tools/testing_support/local_rietveld.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/luci_hacks/luci_recipe_run.py" afterPath="$PROJECT_DIR$/tools/depot_tools/luci_hacks/luci_recipe_run.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/make_docs.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/make_docs.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/my_activity.py" afterPath="$PROJECT_DIR$/tools/depot_tools/my_activity.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/my_reviews.py" afterPath="$PROJECT_DIR$/tools/depot_tools/my_reviews.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/ninja" afterPath="$PROJECT_DIR$/tools/depot_tools/ninja" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/owners.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/owners.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/owners_finder_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/owners_finder_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/owners_unittest.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/owners_unittest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/patch.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/patch.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/patch_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/patch_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/post-applypatch" afterPath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/post-applypatch" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/post-checkout" afterPath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/post-checkout" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/post-commit" afterPath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/post-commit" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/post-dcommit-hook-test.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/post-dcommit-hook-test.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/post-merge" afterPath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/post-merge" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/post-update" afterPath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/post-update" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/pre-applypatch" afterPath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/pre-applypatch" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/pre-auto-gc" afterPath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/pre-auto-gc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/pre-commit" afterPath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/pre-commit" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/pre-rebase" afterPath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/pre-rebase" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/prep_demo_repo.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/prep_demo_repo.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/prepare-commit-msg" afterPath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/prepare-commit-msg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/presubmit_support.py" afterPath="$PROJECT_DIR$/tools/depot_tools/presubmit_support.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/presubmit_unittest.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/presubmit_unittest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/push-basic.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/push-basic.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/push-from-logs.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/push-from-logs.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/push_to_gs.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/push_to_gs.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/pylint.py" afterPath="$PROJECT_DIR$/tools/depot_tools/pylint.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/pylint.py" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/pylint.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/pylint" afterPath="$PROJECT_DIR$/tools/depot_tools/pylint" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/python_runner.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/python_runner.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/recipes.py" afterPath="$PROJECT_DIR$/tools/depot_tools/recipes.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/recipes_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/recipes_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/rename.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/rename.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/repo" afterPath="$PROJECT_DIR$/tools/depot_tools/repo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/rietveld_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/rietveld_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/roll-dep-svn.bat" afterPath="$PROJECT_DIR$/tools/depot_tools/roll-dep-svn.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/roll-dep-svn" afterPath="$PROJECT_DIR$/tools/depot_tools/roll-dep-svn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/roll-dep.bat" afterPath="$PROJECT_DIR$/tools/depot_tools/roll-dep.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/roll-dep" afterPath="$PROJECT_DIR$/tools/depot_tools/roll-dep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/roll_dep.py" afterPath="$PROJECT_DIR$/tools/depot_tools/roll_dep.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/roll_dep_svn.py" afterPath="$PROJECT_DIR$/tools/depot_tools/roll_dep_svn.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/save-description-on-failure.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/save-description-on-failure.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/scm_unittest.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/scm_unittest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/file/simpleresultset.py" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/file/simpleresultset.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/storage_uri.py" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/storage_uri.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/submit-from-new-dir.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/submit-from-new-dir.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/submodule-merge-test.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/submodule-merge-test.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/subprocess2_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/subprocess2_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_22_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_22_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/test-lib.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/test-lib.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/luci_hacks/trigger_luci_job.py" afterPath="$PROJECT_DIR$/tools/depot_tools/luci_hacks/trigger_luci_job.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/trychange.py" afterPath="$PROJECT_DIR$/tools/depot_tools/trychange.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/trychange_unittest.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/trychange_unittest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/update_depot_tools" afterPath="$PROJECT_DIR$/tools/depot_tools/update_depot_tools" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/upload-local-tracking-branch.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/upload-local-tracking-branch.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/upload-stale.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/upload-stale.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/upload.py" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/upload.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/upload_to_google_storage.py" afterPath="$PROJECT_DIR$/tools/depot_tools/upload_to_google_storage.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/upload_to_google_storage_unittests.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/upload_to_google_storage_unittests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/upstream.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/upstream.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/gs/user.py" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/gs/user.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/cq_client/test/validate_config_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/cq_client/test/validate_config_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/shockwave/pdfiumtest/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/shockwave/pdfiumtest/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfium-android/build.gradle" afterPath="$PROJECT_DIR$/pdfium-android/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_pdf.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_pdf.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/watchlists.py" afterPath="$PROJECT_DIR$/tools/depot_tools/watchlists.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/watchlists_unittest.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/watchlists_unittest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/weekly" afterPath="$PROJECT_DIR$/tools/depot_tools/weekly" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/wtf" afterPath="$PROJECT_DIR$/tools/depot_tools/wtf" />
     </list>
     <ignored path="pdfium-view-android.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -450,38 +52,168 @@
     <favorites_list name="pdfium-view-android" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pdfium-android/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.76119405">
-              <caret line="42" column="73" selection-start-line="42" selection-start-column="73" selection-end-line="42" selection-end-column="73" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5363528">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/settings.gradle">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/build.gradle">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pdfium-android/build.gradle">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PdfiumCore.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pdfium-android/src/main/java/com/shockwave/pdfium/PdfiumCore.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-3.9310346">
+                  <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PdfDocument.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pdfium-android/src/main/java/com/shockwave/pdfium/PdfDocument.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PdfView.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/pdfium-android/src/main/java/com/shockwave/pdfium/PdfView.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="2.3663003">
+                  <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#1960#2668#0" expanded="true" />
+                    <element signature="e#2667#2668#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SurfaceView.java" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-22/android/view/SurfaceView.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+                  <folding>
+                    <element signature="e#1273#1274#0" expanded="true" />
+                    <element signature="e#1313#1314#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AttributeSet.java" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-22/android/util/AttributeSet.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/src/main/java/com/shockwave/pdfiumtest/MainActivity.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-6.275862">
+                  <caret line="35" column="63" selection-start-line="35" selection-start-column="63" selection-end-line="35" selection-end-column="63" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="PdfActivity.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/src/main/java/com/shockwave/pdfiumtest/PdfActivity.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.56173915">
+                  <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+                  <folding>
+                    <element signature="e#575#593#0" expanded="true" />
+                    <element signature="e#928#956#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pdfium-android/src/main/AndroidManifest.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="activity_pdf.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pdf.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-4.1034484">
+                  <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+                  <folding />
+                </state>
+              </provider>
+              <provider editor-type-id="android-designer">
+                <state />
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -2951,7 +2683,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="C:\Users\dudu\Git\pdfium-view-android" value="5821602656640" />
+        <entry key="C:\Users\dudu\Git\pdfium-view-android" value="5821648868492" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -3530,6 +3262,14 @@
       <list>
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/pdfium-android/build.gradle" />
+        <option value="$PROJECT_DIR$/pdfium-android/src/main/java/com/shockwave/pdfium/PdfActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/shockwave/pdfiumtest/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_pdf.xml" />
+        <option value="$PROJECT_DIR$/pdfium-android/src/main/java/com/shockwave/pdfium/PdfView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/shockwave/pdfiumtest/PdfActivity.java" />
+        <option value="$PROJECT_DIR$/pdfium-android/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -3549,7 +3289,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -3590,6 +3330,38 @@
               <option name="myItemId" value="pdfium-android" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pdfium-view-android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pdfium-android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pdfium-view-android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pdfium-android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -3603,10 +3375,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pdfium" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -3650,15 +3418,91 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pdfium-view-android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pdfium-view-android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pdfium-view-android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pdfiumtest" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pdfium-view-android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="ZY2225FK94" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD_Ginger" />
+    <property name="extract.method.default.visibility" value="private" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dudu\Git\pdfium-view-android\app\src\main\res\layout" />
+    </key>
   </component>
   <component name="RunManager" selected="Android Application.app">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -3843,34 +3687,35 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3259177" sideWeight="0.4978678" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.28091684" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.71908313" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.49573562" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2707889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.4978678" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -3899,9 +3744,123 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pdfium-android/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76119405">
-          <caret line="42" column="73" selection-start-line="42" selection-start-column="73" selection-end-line="42" selection-end-column="73" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfium-android/src/main/java/com/shockwave/pdfium/PdfDocument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/shockwave/pdfiumtest/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.275862">
+          <caret line="35" column="63" selection-start-line="35" selection-start-column="63" selection-end-line="35" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-22/android/util/DisplayMetrics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3321739">
+          <caret line="156" column="15" selection-start-line="156" selection-start-column="15" selection-end-line="156" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfium-android/src/main/java/com/shockwave/pdfium/PdfiumCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9310346">
+          <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pdf.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.1034484">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/platforms/android-22/android.jar!/android/view/SurfaceView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34854016">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+          <folding>
+            <element signature="e#1516#1517#0" expanded="true" />
+            <element signature="e#1567#1568#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-22/android/util/AttributeSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-22/android/view/SurfaceView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+          <folding>
+            <element signature="e#1273#1274#0" expanded="true" />
+            <element signature="e#1313#1314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfium-android/src/main/java/com/shockwave/pdfium/PdfView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.3663003">
+          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1960#2668#0" expanded="true" />
+            <element signature="e#2667#2668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/shockwave/pdfiumtest/PdfActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdfium-android/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56173915">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="e#575#593#0" expanded="true" />
+            <element signature="e#928#956#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
