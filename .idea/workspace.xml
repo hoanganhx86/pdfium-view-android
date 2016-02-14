@@ -1,16 +1,431 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AndroidLayouts">
-    <shared>
-      <config />
-    </shared>
-  </component>
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="46334bc2-4275-4201-8d7f-920bbab7aa65" name="Default" comment="" />
-    <ignored path="PdfiumAndroid-Demo.iws" />
+    <list default="true" id="88464717-940f-44a6-97a2-dad599c2e80a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdfium-android/src/main/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdfium-android/src/androidTest/java/com/shockwave/pdfium/ApplicationTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdfium-android/src/main/java/com/shockwave/pdfium/PdfActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdfium-android/src/main/java/com/shockwave/pdfium/PdfDocument.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdfium-android/src/main/java/com/shockwave/pdfium/PdfiumCore.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdfium-android/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdfium-android/proguard-rules.pro" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\proguard-rules.pro" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\androidTest\java\com\shockwave\pdfium\ApplicationTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\java\com\shockwave\pdfium\PdfActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\java\com\shockwave\pdfium\PdfDocument.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\java\com\shockwave\pdfium\PdfiumCore.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\Android.mk" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\Application.mk" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\formfiller\FFL_CBA_Fontmap.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\formfiller\FFL_CheckBox.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\formfiller\FFL_ComboBox.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\formfiller\FFL_FormFiller.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\formfiller\FFL_IFormFiller.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\formfiller\FFL_ListBox.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\formfiller\FFL_Notify.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\formfiller\FFL_PushButton.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\formfiller\FFL_RadioButton.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\formfiller\FFL_TextField.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\formfiller\FFL_Utils.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\formfiller\FormFiller.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fpdf_dataavail.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fpdf_ext.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fpdf_flatten.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fpdf_fwlevent.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fpdf_progressive.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fpdf_searchex.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fpdf_sysfontinfo.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fpdf_transformpage.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fpdfdoc.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fpdfedit.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fpdfformfill.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fpdfoom.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fpdfppo.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fpdfsave.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fpdftext.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fpdfview.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fsdk_actionhandler.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fsdk_annothandler.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fsdk_baseannot.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fsdk_baseform.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fsdk_common.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fsdk_define.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fsdk_mgr.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fsdk_rendercontext.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fx_systemhandler.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fxedit\fx_edit.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fxedit\fxet_edit.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fxedit\fxet_list.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\fxedit\fxet_stub.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\Consts.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\Document.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\Field.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\IJavaScript.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\Icon.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\JS_Console.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\JS_Context.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\JS_Define.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\JS_EventHandler.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\JS_GlobalData.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\JS_Module.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\JS_Object.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\JS_Runtime.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\JS_Value.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\JavaScript.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\PublicMethods.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\app.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\color.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\console.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\event.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\global.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\report.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\resource.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\javascript\util.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\jsapi\fxjs_v8.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\IPDFWindow.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\PDFWindow.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\PWL_Button.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\PWL_Caret.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\PWL_ComboBox.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\PWL_Edit.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\PWL_EditCtrl.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\PWL_FontMap.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\PWL_Icon.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\PWL_IconList.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\PWL_Label.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\PWL_ListBox.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\PWL_ListCtrl.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\PWL_Note.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\PWL_ScrollBar.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\PWL_Signature.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\PWL_SpecialButton.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\PWL_Utils.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\pdfwindow\PWL_Wnd.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\prof.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\AndroidThreads.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Atomic.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\BasicHashtable.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\BitSet.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\BlobCache.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\ByteOrder.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\CallStack.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Compat.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Condition.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Debug.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Endian.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Errors.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\FileMap.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Flattenable.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Functor.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\JenkinsHash.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\KeyedVector.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\LinearAllocator.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\LinearTransform.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\List.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Log.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Looper.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\LruCache.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Mutex.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\NativeHandle.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Printer.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\ProcessCallStack.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\PropertyMap.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\RWLock.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\RefBase.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\SharedBuffer.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Singleton.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\SortedVector.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\StopWatch.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\String16.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\String8.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\StrongPointer.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\SystemClock.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Thread.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\ThreadDefs.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Timers.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Tokenizer.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Trace.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\TypeHelpers.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Unicode.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\Vector.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\VectorImpl.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\ashmem.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\misc.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\include\utils\threads.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\lib\arm64\libpdfium.so" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\lib\armeabi\libandroid-ndk-profiler.a" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\lib\armeabi\libpdfium.so" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\lib\mips\libpdfium.so" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\lib\x86\libpdfium.so" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\lib\x86_64\libpdfium.so" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\src\mainJNILib.cpp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\jni\src\util.hpp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\res\layout\activity_pdf.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\res\layout\layout_pdf_page.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\dudu\Git\pdfium-view-android\PdfiumAndroid\src\main\res\values\strings.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/win_toolchain/7z/7z.dll" afterPath="$PROJECT_DIR$/tools/depot_tools/win_toolchain/7z/7z.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/win_toolchain/7z/7z.exe" afterPath="$PROJECT_DIR$/tools/depot_tools/win_toolchain/7z/7z.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/cbuildbot" afterPath="$PROJECT_DIR$/tools/depot_tools/cbuildbot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/chrome_set_ver" afterPath="$PROJECT_DIR$/tools/depot_tools/chrome_set_ver" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/create-ntfs-junction.exe" afterPath="$PROJECT_DIR$/tools/depot_tools/create-ntfs-junction.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/cros" afterPath="$PROJECT_DIR$/tools/depot_tools/cros" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/cros_sdk" afterPath="$PROJECT_DIR$/tools/depot_tools/cros_sdk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/coverage/htmlfiles/keybd_closed.png" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/coverage/htmlfiles/keybd_closed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/coverage/htmlfiles/keybd_open.png" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/coverage/htmlfiles/keybd_open.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/ninja-linux32" afterPath="$PROJECT_DIR$/tools/depot_tools/ninja-linux32" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/ninja-linux64" afterPath="$PROJECT_DIR$/tools/depot_tools/ninja-linux64" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/ninja-mac" afterPath="$PROJECT_DIR$/tools/depot_tools/ninja-mac" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/ninja.exe" afterPath="$PROJECT_DIR$/tools/depot_tools/ninja.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/WATCHLISTS" afterPath="$PROJECT_DIR$/tools/depot_tools/WATCHLISTS" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/file/__init__.py" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/file/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/gs/__init__.py" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/gs/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/abandon.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/abandon.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/gs/acl.py" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/gs/acl.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/annotated_gclient.py" afterPath="$PROJECT_DIR$/tools/depot_tools/annotated_gclient.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_22_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_22_0_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/apply_issue.bat" afterPath="$PROJECT_DIR$/tools/depot_tools/apply_issue.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/apply_issue.py" afterPath="$PROJECT_DIR$/tools/depot_tools/apply_issue.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/apply_issue" afterPath="$PROJECT_DIR$/tools/depot_tools/apply_issue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/applypatch-msg" afterPath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/applypatch-msg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/basic.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/basic.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/recipe_modules/bot_update/resources/bot_update.py" afterPath="$PROJECT_DIR$/tools/depot_tools/recipe_modules/bot_update/resources/bot_update.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/services/bs.py" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/services/bs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/buildbucket.py" afterPath="$PROJECT_DIR$/tools/depot_tools/buildbucket.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/checkout_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/checkout_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/chrome-update-create-task.bat" afterPath="$PROJECT_DIR$/tools/depot_tools/chrome-update-create-task.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/chrome-update.bat" afterPath="$PROJECT_DIR$/tools/depot_tools/chrome-update.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/chrome-update.py" afterPath="$PROJECT_DIR$/tools/depot_tools/chrome-update.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/support/chromite_wrapper" afterPath="$PROJECT_DIR$/tools/depot_tools/support/chromite_wrapper" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/cit.bat" afterPath="$PROJECT_DIR$/tools/depot_tools/cit.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/cit.py" afterPath="$PROJECT_DIR$/tools/depot_tools/cit.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/cit" afterPath="$PROJECT_DIR$/tools/depot_tools/cit" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/clang-format" afterPath="$PROJECT_DIR$/tools/depot_tools/clang-format" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/clang_format.py" afterPath="$PROJECT_DIR$/tools/depot_tools/clang_format.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/gsutil/gslib/command_runner.py" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/gsutil/gslib/command_runner.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/commit_queue.bat" afterPath="$PROJECT_DIR$/tools/depot_tools/commit_queue.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/commit_queue.py" afterPath="$PROJECT_DIR$/tools/depot_tools/commit_queue.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/commit_queue" afterPath="$PROJECT_DIR$/tools/depot_tools/commit_queue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/common_demo_functions.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/common_demo_functions.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/file/connection.py" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/file/connection.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/gs/connection.py" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/gs/connection.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/gs/cors.py" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/gs/cors.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/cpplint.py" afterPath="$PROJECT_DIR$/tools/depot_tools/cpplint.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/cpplint_chromium.py" afterPath="$PROJECT_DIR$/tools/depot_tools/cpplint_chromium.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/create-chromium-git-src" afterPath="$PROJECT_DIR$/tools/depot_tools/create-chromium-git-src" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/dart_format.py" afterPath="$PROJECT_DIR$/tools/depot_tools/dart_format.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/demo_repo.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/demo_repo.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/depot-tools-auth.py" afterPath="$PROJECT_DIR$/tools/depot_tools/depot-tools-auth.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/depot-tools-auth" afterPath="$PROJECT_DIR$/tools/depot_tools/depot-tools-auth" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/depot_tools_tutorial.demo.walkthrough.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/depot_tools_tutorial.demo.walkthrough.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/download_from_google_storage.bat" afterPath="$PROJECT_DIR$/tools/depot_tools/download_from_google_storage.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/download_from_google_storage.py" afterPath="$PROJECT_DIR$/tools/depot_tools/download_from_google_storage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/download_from_google_storage" afterPath="$PROJECT_DIR$/tools/depot_tools/download_from_google_storage" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/download_from_google_storage_unittests.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/download_from_google_storage_unittests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/drover.py" afterPath="$PROJECT_DIR$/tools/depot_tools/drover.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/drover" afterPath="$PROJECT_DIR$/tools/depot_tools/drover" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/recipe_modules/presubmit/example.py" afterPath="$PROJECT_DIR$/tools/depot_tools/recipe_modules/presubmit/example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/testing_support/fake_repos.py" afterPath="$PROJECT_DIR$/tools/depot_tools/testing_support/fake_repos.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/fetch.bat" afterPath="$PROJECT_DIR$/tools/depot_tools/fetch.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/fetch.py" afterPath="$PROJECT_DIR$/tools/depot_tools/fetch.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/fetch" afterPath="$PROJECT_DIR$/tools/depot_tools/fetch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/filter_demo_output.py" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/filter_demo_output.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/fix_encoding_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/fix_encoding_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/gcl.bat" afterPath="$PROJECT_DIR$/tools/depot_tools/gcl.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/gcl.py" afterPath="$PROJECT_DIR$/tools/depot_tools/gcl.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/gcl" afterPath="$PROJECT_DIR$/tools/depot_tools/gcl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/gclient-new-workdir.py" afterPath="$PROJECT_DIR$/tools/depot_tools/gclient-new-workdir.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/gclient.bat" afterPath="$PROJECT_DIR$/tools/depot_tools/gclient.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/gclient.py" afterPath="$PROJECT_DIR$/tools/depot_tools/gclient.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/gclient" afterPath="$PROJECT_DIR$/tools/depot_tools/gclient" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/gclient_completion.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/gclient_completion.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/gclient_scm_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/gclient_scm_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/gclient_smoketest.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/gclient_smoketest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/gclient_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/gclient_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/gclient_utils_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/gclient_utils_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/testing_support/gerrit-init.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/testing_support/gerrit-init.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/gerrit_util.py" afterPath="$PROJECT_DIR$/tools/depot_tools/gerrit_util.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/testing_support/get_appengine.py" afterPath="$PROJECT_DIR$/tools/depot_tools/testing_support/get_appengine.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/win_toolchain/get_toolchain_if_necessary.py" afterPath="$PROJECT_DIR$/tools/depot_tools/win_toolchain/get_toolchain_if_necessary.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-auto-svn" afterPath="$PROJECT_DIR$/tools/depot_tools/git-auto-svn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-bash" afterPath="$PROJECT_DIR$/tools/depot_tools/git-bash" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-cache" afterPath="$PROJECT_DIR$/tools/depot_tools/git-cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/git-cherry-pick-upload.demo.1.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/git-cherry-pick-upload.demo.1.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-cherry-pick-upload" afterPath="$PROJECT_DIR$/tools/depot_tools/git-cherry-pick-upload" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-cl-upload-hook" afterPath="$PROJECT_DIR$/tools/depot_tools/git-cl-upload-hook" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-cl" afterPath="$PROJECT_DIR$/tools/depot_tools/git-cl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-crrev-parse" afterPath="$PROJECT_DIR$/tools/depot_tools/git-crrev-parse" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-crsync" afterPath="$PROJECT_DIR$/tools/depot_tools/git-crsync" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/git-drover.demo.1.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/git-drover.demo.1.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/git-drover.demo.2.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/git-drover.demo.2.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/git-drover.demo.3.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/git-drover.demo.3.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/git-drover.demo.4.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/git-drover.demo.4.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/git-drover.demo.common.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/git-drover.demo.common.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-drover" afterPath="$PROJECT_DIR$/tools/depot_tools/git-drover" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-find-releases" afterPath="$PROJECT_DIR$/tools/depot_tools/git-find-releases" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/git-footers.demo.1.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/git-footers.demo.1.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-footers" afterPath="$PROJECT_DIR$/tools/depot_tools/git-footers" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/git-freeze.demo.1.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/git-freeze.demo.1.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-freeze" afterPath="$PROJECT_DIR$/tools/depot_tools/git-freeze" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-gs" afterPath="$PROJECT_DIR$/tools/depot_tools/git-gs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/git-hyper-blame.demo.1.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/git-hyper-blame.demo.1.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/git-hyper-blame.demo.2.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/git-hyper-blame.demo.2.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/git-hyper-blame.demo.common.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/git-hyper-blame.demo.common.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-hyper-blame" afterPath="$PROJECT_DIR$/tools/depot_tools/git-hyper-blame" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-lkgr" afterPath="$PROJECT_DIR$/tools/depot_tools/git-lkgr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/git-map-branches.demo.1.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/git-map-branches.demo.1.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-map-branches" afterPath="$PROJECT_DIR$/tools/depot_tools/git-map-branches" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/git-map.demo.1.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/git-map.demo.1.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-map" afterPath="$PROJECT_DIR$/tools/depot_tools/git-map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-mark-merge-base" afterPath="$PROJECT_DIR$/tools/depot_tools/git-mark-merge-base" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/git-nav-downstream.demo.1.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/git-nav-downstream.demo.1.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-nav-downstream" afterPath="$PROJECT_DIR$/tools/depot_tools/git-nav-downstream" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/git-nav-upstream.demo.1.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/git-nav-upstream.demo.1.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-nav-upstream" afterPath="$PROJECT_DIR$/tools/depot_tools/git-nav-upstream" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/git-new-branch.demo.1.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/git-new-branch.demo.1.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-new-branch" afterPath="$PROJECT_DIR$/tools/depot_tools/git-new-branch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-number" afterPath="$PROJECT_DIR$/tools/depot_tools/git-number" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-rebase-update" afterPath="$PROJECT_DIR$/tools/depot_tools/git-rebase-update" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-rename-branch" afterPath="$PROJECT_DIR$/tools/depot_tools/git-rename-branch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-reparent-branch" afterPath="$PROJECT_DIR$/tools/depot_tools/git-reparent-branch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-retry" afterPath="$PROJECT_DIR$/tools/depot_tools/git-retry" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-runhooks" afterPath="$PROJECT_DIR$/tools/depot_tools/git-runhooks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/git-squash-branch.demo.1.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/git-squash-branch.demo.1.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-squash-branch" afterPath="$PROJECT_DIR$/tools/depot_tools/git-squash-branch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-thaw" afterPath="$PROJECT_DIR$/tools/depot_tools/git-thaw" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_utils/git-tree-prune" afterPath="$PROJECT_DIR$/tools/depot_tools/git_utils/git-tree-prune" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-try" afterPath="$PROJECT_DIR$/tools/depot_tools/git-try" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-upstream-diff" afterPath="$PROJECT_DIR$/tools/depot_tools/git-upstream-diff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_auto_svn.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_auto_svn.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_cache.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_cache.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/git_cache_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/git_cache_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_cherry_pick_upload.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_cherry_pick_upload.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_cl.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_cl.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/git_cl_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/git_cl_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/git_common_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/git_common_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/git_dates_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/git_dates_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_drover.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_drover.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/git_drover_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/git_drover_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_find_releases.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_find_releases.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_footers.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_footers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/git_footers_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/git_footers_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_freezer.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_freezer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_hyper_blame.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_hyper_blame.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/git_hyper_blame_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/git_hyper_blame_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_map.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_map.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_map_branches.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_map_branches.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_mark_merge_base.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_mark_merge_base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_nav_downstream.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_nav_downstream.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_new_branch.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_new_branch.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_number.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_number.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/git_number_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/git_number_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_rebase_update.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_rebase_update.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/git_rebase_update_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/git_rebase_update_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_rename_branch.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_rename_branch.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_reparent_branch.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_reparent_branch.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_retry.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_retry.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/recipe_modules/git/resources/git_setup.py" afterPath="$PROJECT_DIR$/tools/depot_tools/recipe_modules/git/resources/git_setup.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_squash_branch.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_squash_branch.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_try.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_try.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git_upstream_diff.py" afterPath="$PROJECT_DIR$/tools/depot_tools/git_upstream_diff.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/gn.py" afterPath="$PROJECT_DIR$/tools/depot_tools/gn.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/gn" afterPath="$PROJECT_DIR$/tools/depot_tools/gn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/gsutil.py" afterPath="$PROJECT_DIR$/tools/depot_tools/gsutil.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/gsutil/gsutil" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/gsutil/gsutil" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/gsutil_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/gsutil_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/hammer.bat" afterPath="$PROJECT_DIR$/tools/depot_tools/hammer.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/hammer" afterPath="$PROJECT_DIR$/tools/depot_tools/hammer" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/hooks.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/hooks.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/file/key.py" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/file/key.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/pyami/launch_ami.py" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/pyami/launch_ami.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/testing_support/local_rietveld.py" afterPath="$PROJECT_DIR$/tools/depot_tools/testing_support/local_rietveld.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/luci_hacks/luci_recipe_run.py" afterPath="$PROJECT_DIR$/tools/depot_tools/luci_hacks/luci_recipe_run.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/make_docs.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/make_docs.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/my_activity.py" afterPath="$PROJECT_DIR$/tools/depot_tools/my_activity.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/my_reviews.py" afterPath="$PROJECT_DIR$/tools/depot_tools/my_reviews.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/ninja" afterPath="$PROJECT_DIR$/tools/depot_tools/ninja" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/owners.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/owners.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/owners_finder_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/owners_finder_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/owners_unittest.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/owners_unittest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/patch.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/patch.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/patch_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/patch_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/post-applypatch" afterPath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/post-applypatch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/post-checkout" afterPath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/post-checkout" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/post-commit" afterPath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/post-commit" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/post-dcommit-hook-test.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/post-dcommit-hook-test.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/post-merge" afterPath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/post-merge" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/post-update" afterPath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/post-update" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/pre-applypatch" afterPath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/pre-applypatch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/pre-auto-gc" afterPath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/pre-auto-gc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/pre-commit" afterPath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/pre-commit" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/pre-rebase" afterPath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/pre-rebase" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/src/prep_demo_repo.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/src/prep_demo_repo.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/prepare-commit-msg" afterPath="$PROJECT_DIR$/tools/depot_tools/git-templates/hooks/prepare-commit-msg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/presubmit_support.py" afterPath="$PROJECT_DIR$/tools/depot_tools/presubmit_support.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/presubmit_unittest.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/presubmit_unittest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/push-basic.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/push-basic.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/push-from-logs.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/push-from-logs.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/man/push_to_gs.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/man/push_to_gs.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/pylint.py" afterPath="$PROJECT_DIR$/tools/depot_tools/pylint.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/pylint.py" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/pylint.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/pylint" afterPath="$PROJECT_DIR$/tools/depot_tools/pylint" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/python_runner.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/python_runner.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/recipes.py" afterPath="$PROJECT_DIR$/tools/depot_tools/recipes.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/recipes_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/recipes_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/rename.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/rename.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/repo" afterPath="$PROJECT_DIR$/tools/depot_tools/repo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/rietveld_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/rietveld_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/roll-dep-svn.bat" afterPath="$PROJECT_DIR$/tools/depot_tools/roll-dep-svn.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/roll-dep-svn" afterPath="$PROJECT_DIR$/tools/depot_tools/roll-dep-svn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/roll-dep.bat" afterPath="$PROJECT_DIR$/tools/depot_tools/roll-dep.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/roll-dep" afterPath="$PROJECT_DIR$/tools/depot_tools/roll-dep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/roll_dep.py" afterPath="$PROJECT_DIR$/tools/depot_tools/roll_dep.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/roll_dep_svn.py" afterPath="$PROJECT_DIR$/tools/depot_tools/roll_dep_svn.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/save-description-on-failure.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/save-description-on-failure.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/scm_unittest.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/scm_unittest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/file/simpleresultset.py" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/file/simpleresultset.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/storage_uri.py" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/storage_uri.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/submit-from-new-dir.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/submit-from-new-dir.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/submodule-merge-test.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/submodule-merge-test.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/subprocess2_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/subprocess2_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_22_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_22_0_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/test-lib.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/test-lib.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/luci_hacks/trigger_luci_job.py" afterPath="$PROJECT_DIR$/tools/depot_tools/luci_hacks/trigger_luci_job.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/trychange.py" afterPath="$PROJECT_DIR$/tools/depot_tools/trychange.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/trychange_unittest.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/trychange_unittest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/update_depot_tools" afterPath="$PROJECT_DIR$/tools/depot_tools/update_depot_tools" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/upload-local-tracking-branch.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/upload-local-tracking-branch.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/upload-stale.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/upload-stale.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/upload.py" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/upload.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/upload_to_google_storage.py" afterPath="$PROJECT_DIR$/tools/depot_tools/upload_to_google_storage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/upload_to_google_storage_unittests.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/upload_to_google_storage_unittests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/upstream.sh" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/upstream.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/gs/user.py" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/boto/gs/user.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/third_party/cq_client/test/validate_config_test.py" afterPath="$PROJECT_DIR$/tools/depot_tools/third_party/cq_client/test/validate_config_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/watchlists.py" afterPath="$PROJECT_DIR$/tools/depot_tools/watchlists.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/tests/watchlists_unittest.py" afterPath="$PROJECT_DIR$/tools/depot_tools/tests/watchlists_unittest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/weekly" afterPath="$PROJECT_DIR$/tools/depot_tools/weekly" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/depot_tools/wtf" afterPath="$PROJECT_DIR$/tools/depot_tools/wtf" />
+    </list>
+    <ignored path="pdfium-view-android.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,73 +447,35 @@
     </system>
   </component>
   <component name="FavoritesManager">
-    <favorites_list name="PdfiumAndroid-Demo" />
+    <favorites_list name="pdfium-view-android" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/shockwave/pdfiumtest/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.059130434">
-              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PdfActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PdfiumAndroid/src/main/java/com/shockwave/pdfium/PdfActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.275862">
-              <caret line="54" column="43" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout_pdf_page.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PdfiumAndroid/src/main/res/layout/layout_pdf_page.xml">
+      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_pdf.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PdfiumAndroid/src/main/res/layout/activity_pdf.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PdfDocument.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PdfiumAndroid/src/main/java/com/shockwave/pdfium/PdfDocument.java">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PdfiumCore.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PdfiumAndroid/src/main/java/com/shockwave/pdfium/PdfiumCore.java">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pdfium-android/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="123" column="7" selection-start-line="123" selection-start-column="7" selection-end-line="123" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.76119405">
+              <caret line="42" column="73" selection-start-line="42" selection-start-column="73" selection-end-line="42" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -106,13 +483,17 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="availableProjects">
       <map>
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="PdfiumAndroid-Demo" />
+              <option name="name" value="pdfium-view-android" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
@@ -123,12 +504,12 @@
                 <option name="path" value="$PROJECT_DIR$/app" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value=":PdfiumAndroid" />
-                <option name="path" value="$PROJECT_DIR$/PdfiumAndroid" />
+                <option name="name" value="pdfium-view-android" />
+                <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="PdfiumAndroid-Demo" />
-                <option name="path" value="$PROJECT_DIR$" />
+                <option name="name" value=":pdfium-android" />
+                <option name="path" value="$PROJECT_DIR$/pdfium-android" />
               </ExternalProjectPojo>
             </list>
           </value>
@@ -145,17 +526,17 @@
                 <option name="name" value="clean" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'PdfiumAndroid-Demo'. [incubating]" />
+                <option name="description" value="Displays the components produced by root project 'pdfium-view-android'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'PdfiumAndroid-Demo'." />
+                <option name="description" value="Displays all dependencies declared in root project 'pdfium-view-android'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'PdfiumAndroid-Demo'." />
+                <option name="description" value="Displays the insight into a specific dependency in root project 'pdfium-view-android'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
@@ -170,22 +551,22 @@
                 <option name="name" value="init" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'PdfiumAndroid-Demo'. [incubating]" />
+                <option name="description" value="Displays the configuration model of root project 'pdfium-view-android'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of root project 'PdfiumAndroid-Demo'." />
+                <option name="description" value="Displays the sub-projects of root project 'pdfium-view-android'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of root project 'PdfiumAndroid-Demo'." />
+                <option name="description" value="Displays the properties of root project 'pdfium-view-android'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'PdfiumAndroid-Demo' (some of the displayed tasks may belong to subprojects)." />
+                <option name="description" value="Displays the tasks runnable from root project 'pdfium-view-android' (some of the displayed tasks may belong to subprojects)." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
@@ -223,10 +604,6 @@
                 <option name="name" value="assembleDebugUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="assembleDefault" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Assembles all Release builds." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="assembleRelease" />
@@ -249,16 +626,6 @@
                 <option name="description" value="Assembles and tests this project and all projects it depends on." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildNeeded" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a bundle containing the library in debug." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="bundleDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a bundle containing the library in release." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="bundleRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs all checks." />
@@ -369,14 +736,6 @@
                 <option name="name" value="connectedDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="copyDebugLint" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="copyReleaseLint" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Installs and runs instrumentation tests using all Device Providers." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="deviceAndroidTest" />
@@ -385,16 +744,6 @@
                 <option name="description" value="Runs all device checks using Device Providers and Test Servers." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="deviceCheck" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Extracts Android annotations for the debug variant into the archive file" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="extractDebugAnnotations" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Extracts Android annotations for the release variant into the archive file" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="extractReleaseAnnotations" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -457,9 +806,22 @@
                 <option name="name" value="generateReleaseSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Installs the Debug build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="installDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Installs the android (on device) tests for the Debug build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="installDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jarDebugClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jarReleaseClasses" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs lint on all variants." />
@@ -475,6 +837,11 @@
                 <option name="description" value="Runs lint on the Release build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="lintRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs lint on just the fatal issues in the Release build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="lintVitalRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -498,10 +865,6 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="mergeDebugProguardFiles" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeDebugResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -514,10 +877,6 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="mergeReleaseProguardFiles" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeReleaseResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -527,23 +886,15 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="packageDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="packageDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="packageDebugRenderscript" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="packageDebugResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="packageReleaseRenderscript" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="packageReleaseResources" />
+                <option name="name" value="packageRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -570,14 +921,19 @@
                 <option name="name" value="preReleaseUnitTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:appcompat-v7:22.0.0" />
+                <option name="description" value="Prepare com.android.support:appcompat-v7:23.1.1" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportAppcompatV72200Library" />
+                <option name="name" value="prepareComAndroidSupportAppcompatV72311Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-v4:22.0.0" />
+                <option name="description" value="Prepare com.android.support:support-v4:23.1.1" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportV42200Library" />
+                <option name="name" value="prepareComAndroidSupportSupportV42311Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.github.mshockwave:pdfium-android:1.0.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComGithubMshockwavePdfiumAndroid100Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -644,10 +1000,6 @@
                 <option name="name" value="processReleaseUnitTestJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="signArchives" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays the signing info for each variant." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="signingReport" />
@@ -674,15 +1026,15 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformClassesAndResourcesWithSyncLibJarsForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformClassesAndResourcesWithSyncLibJarsForRelease" />
+                <option name="name" value="transformClassesWithDexForDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="transformClassesWithDexForDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="transformClassesWithDexForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -695,14 +1047,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="transformNative_libsWithMergeJniLibsForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformNative_libsWithSyncJniLibsForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformNative_libsWithSyncJniLibsForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -730,67 +1074,14 @@
                 <option name="name" value="uninstallAll" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Uninstalls the android (on device) tests for the Debug build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="uninstallDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="validateDebugSigning" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Installs the Debug build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="installDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="jarDebugClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="jarReleaseClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs lint on just the fatal issues in the Release build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="lintVitalRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="packageDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="packageRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:appcompat-v7:23.1.1" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportAppcompatV72311Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-v4:23.1.1" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportV42311Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.github.mshockwave:PdfiumAndroid:1.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComGithubMshockwavePdfiumAndroid100Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformClassesWithDexForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformClassesWithDexForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Uninstalls the Debug build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="uninstallDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Uninstalls the android (on device) tests for the Debug build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="uninstallDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Uninstalls the Release build." />
@@ -799,7 +1090,97 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="validateDebugSigning" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="zipalignDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assembleDefault" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a bundle containing the library in debug." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="bundleDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a bundle containing the library in release." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="bundleRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="copyDebugLint" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="copyReleaseLint" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Extracts Android annotations for the debug variant into the archive file" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="extractDebugAnnotations" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Extracts Android annotations for the release variant into the archive file" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="extractReleaseAnnotations" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="mergeDebugProguardFiles" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="mergeReleaseProguardFiles" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="packageDebugRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="packageDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="packageReleaseRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="packageReleaseResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:appcompat-v7:22.0.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportAppcompatV72200Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-v4:22.0.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportV42200Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="signArchives" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="transformClassesAndResourcesWithSyncLibJarsForDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="transformClassesAndResourcesWithSyncLibJarsForRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="transformNative_libsWithSyncJniLibsForDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="transformNative_libsWithSyncJniLibsForRelease" />
               </ExternalTaskPojo>
             </list>
           </value>
@@ -1788,7 +2169,7 @@
                 <option name="name" value="prepareComAndroidSupportSupportV42311Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.github.mshockwave:PdfiumAndroid:1.0.0" />
+                <option name="description" value="Prepare com.github.mshockwave:pdfium-android:1.0.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="prepareComGithubMshockwavePdfiumAndroid100Library" />
               </ExternalTaskPojo>
@@ -1971,11 +2352,606 @@
             </list>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/pdfium-android">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the Android dependencies of the project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="androidDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles all variants of all applications and secondary packages." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles all the Test applications." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="assembleAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles all Debug builds." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="assembleDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="assembleDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="assembleDebugUnitTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="assembleDefault" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles all Release builds." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="assembleRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="assembleReleaseUnitTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a bundle containing the library in debug." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="bundleDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a bundle containing the library in release." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="bundleRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="checkDebugManifest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="checkReleaseManifest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="compileDebugAidl" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="compileDebugAndroidTestAidl" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="compileDebugAndroidTestJavaWithJavac" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="compileDebugAndroidTestNdk" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="compileDebugAndroidTestRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="compileDebugAndroidTestSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="compileDebugJavaWithJavac" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="compileDebugNdk" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="compileDebugRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="compileDebugSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="compileDebugUnitTestJavaWithJavac" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="compileDebugUnitTestSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="compileLint" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="compileReleaseAidl" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="compileReleaseJavaWithJavac" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="compileReleaseNdk" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="compileReleaseRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="compileReleaseSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="compileReleaseUnitTestJavaWithJavac" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="compileReleaseUnitTestSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':pdfium-android'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs and runs instrumentation tests for all flavors on connected devices." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="connectedAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all device checks on currently connected devices." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="connectedCheck" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs and runs the tests for debug on connected devices." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="connectedDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="copyDebugLint" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="copyReleaseLint" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':pdfium-android'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':pdfium-android'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs and runs instrumentation tests using all Device Providers." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="deviceAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all device checks using Device Providers and Test Servers." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="deviceCheck" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Extracts Android annotations for the debug variant into the archive file" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="extractDebugAnnotations" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Extracts Android annotations for the release variant into the archive file" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="extractReleaseAnnotations" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="generateDebugAndroidTestAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="generateDebugAndroidTestBuildConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="generateDebugAndroidTestResValues" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="generateDebugAndroidTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="generateDebugAndroidTestSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="generateDebugAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="generateDebugBuildConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="generateDebugResValues" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="generateDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="generateDebugSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="generateReleaseAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="generateReleaseBuildConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="generateReleaseResValues" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="generateReleaseResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="generateReleaseSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the android (on device) tests for the Debug build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="installDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs lint on all variants." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="lint" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs lint on the Debug build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="lintDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs lint on the Release build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="lintRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="mergeDebugAndroidTestAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="mergeDebugAndroidTestJniLibFolders" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="mergeDebugAndroidTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="mergeDebugAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="mergeDebugJniLibFolders" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="mergeDebugProguardFiles" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="mergeDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="mergeReleaseAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="mergeReleaseJniLibFolders" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="mergeReleaseProguardFiles" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="mergeReleaseResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates a version of android.jar that's suitable for unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="mockableAndroidJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':pdfium-android'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="packageDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="packageDebugRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="packageDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="packageReleaseRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="packageReleaseResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="preBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="preDebugAndroidTestBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="preDebugBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="preDebugUnitTestBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="preReleaseBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="preReleaseUnitTestBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:appcompat-v7:22.0.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="prepareComAndroidSupportAppcompatV72200Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-v4:22.0.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="prepareComAndroidSupportSupportV42200Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="prepareDebugAndroidTestDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="prepareDebugDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="prepareDebugUnitTestDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="prepareReleaseDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="prepareReleaseUnitTestDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="processDebugAndroidTestJavaRes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="processDebugAndroidTestManifest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="processDebugAndroidTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="processDebugJavaRes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="processDebugManifest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="processDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="processDebugUnitTestJavaRes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="processReleaseJavaRes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="processReleaseManifest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="processReleaseResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="processReleaseUnitTestJavaRes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':pdfium-android'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':pdfium-android'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="signArchives" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the signing info for each variant." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="signingReport" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prints out all the source sets defined in this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="sourceSets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':pdfium-android'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Run unit tests for all variants." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Run unit tests for the debug build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="testDebugUnitTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Run unit tests for the release build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="testReleaseUnitTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="transformClassesAndResourcesWithSyncLibJarsForDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="transformClassesAndResourcesWithSyncLibJarsForRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="transformClassesWithDexForDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="transformNative_libsWithMergeJniLibsForDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="transformNative_libsWithMergeJniLibsForDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="transformNative_libsWithMergeJniLibsForRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="transformNative_libsWithSyncJniLibsForDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="transformNative_libsWithSyncJniLibsForRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="transformResourcesWithMergeJavaResForDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="transformResourcesWithMergeJavaResForDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="transformResourcesWithMergeJavaResForDebugUnitTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="transformResourcesWithMergeJavaResForRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="transformResourcesWithMergeJavaResForReleaseUnitTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Uninstall all applications." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="uninstallAll" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Uninstalls the android (on device) tests for the Debug build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="uninstallDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pdfium-android" />
+                <option name="name" value="validateDebugSigning" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="C:\Users\dudu\Android\PdfiumAndroid-Demo" value="5821486493609" />
+        <entry key="C:\Users\dudu\Git\pdfium-view-android" value="5821602656640" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2309,6 +3285,115 @@
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
+                  <entry key="$PROJECT_DIR$/pdfium-android">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/1.5.0/gradle-1.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/1.5.0/gradle-1.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/1.5.0/gradle-core-1.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/1.5.0/gradle-core-1.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/transform-api/1.5.0/transform-api-1.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/transform-api/1.5.0/transform-api-1.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/compilerCommon/1.0-rc5/compilerCommon-1.0-rc5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.2.1/proguard-gradle-5.2.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.2.1/proguard-gradle-5.2.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/24.5.0/lint-24.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/24.5.0/lint-24.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/1.5.0/builder-1.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/1.5.0/builder-1.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/17.0/guava-17.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/24.5.0/annotations-24.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/24.5.0/annotations-24.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4/4.5/antlr4-4.5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/baseLibrary/1.0-rc5/baseLibrary-1.0-rc5-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/baseLibrary/1.0-rc5/baseLibrary-1.0-rc5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.2.1/proguard-base-5.2.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.2.1/proguard-base-5.2.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/24.5.0/lint-checks-24.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/24.5.0/lint-checks-24.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.4.2/ecj-4.4.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/24.5.0/sdk-common-24.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/24.5.0/sdk-common-24.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/1.5.0/builder-model-1.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/1.5.0/builder-model-1.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/24.5.0/common-24.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/24.5.0/common-24.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/24.5.0/sdklib-24.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/24.5.0/sdklib-24.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/1.5.0/builder-test-api-1.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/1.5.0/builder-test-api-1.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.9.0/jack-api-0.9.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.9.0/jack-api-0.9.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/24.5.0/ddmlib-24.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/24.5.0/ddmlib-24.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/24.5.0/manifest-merger-24.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/24.5.0/manifest-merger-24.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.9.0/jill-api-0.9.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.9.0/jill-api-0.9.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4-runtime/4.5/antlr4-runtime-4.5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/tunnelvisionlabs/antlr4-annotations/4.5/antlr4-annotations-4.5.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/ST4/4.0.8/ST4-4.0.8.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/24.5.0/lint-api-24.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/24.5.0/lint-api-24.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/24.5.0/layoutlib-api-24.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/24.5.0/layoutlib-api-24.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/24.5.0/dvlib-24.5.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/24.5.0/dvlib-24.5.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayout.core-1.0.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-codec/commons-codec/1.4/commons-codec-1.4-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0-sources.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/22.0.0/appcompat-v7-22.0.0.aar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-v4/22.0.0/support-v4-22.0.0.aar" />
+                            <option value="$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$/pdfium-android" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
                 </map>
               </option>
               <option name="name" value="app" />
@@ -2443,8 +3528,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PdfiumAndroid/src/main/java/com/shockwave/pdfium/PdfActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/shockwave/pdfiumtest/MainActivity.java" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
       </list>
     </option>
   </component>
@@ -2457,7 +3542,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -2480,161 +3565,39 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PdfiumAndroid-Demo" />
+              <option name="myItemId" value="pdfium-view-android" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PdfiumAndroid-Demo" />
+              <option name="myItemId" value="pdfium-view-android" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PdfiumAndroid-Demo" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PdfiumAndroid-Demo" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PdfiumAndroid-Demo" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pdfiumtest" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PdfiumAndroid-Demo" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manifests" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PdfiumAndroid-Demo" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PdfiumAndroid" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PdfiumAndroid-Demo" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PdfiumAndroid" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PdfiumAndroid-Demo" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PdfiumAndroid" />
+              <option name="myItemId" value="pdfium-android" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PdfiumAndroid-Demo" />
+              <option name="myItemId" value="pdfium-view-android" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PdfiumAndroid" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PdfiumAndroid-Demo" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PdfiumAndroid" />
+              <option name="myItemId" value="pdfium-android" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -2646,27 +3609,56 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pdfium-view-android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pdfium-android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pdfium" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pdfium-view-android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pdfium-android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pdfium-view-android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="ZY2225FK94" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD_Ginger" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\dudu\Android\PdfiumAndroid-Demo\PdfiumAndroid\src\main\res\layout" />
-      <recent name="C:\Users\dudu\Android\PdfiumAndroid-Demo\app\src\main\res\layout" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.shockwave.pdfium" />
-    </key>
   </component>
   <component name="RunManager" selected="Android Application.app">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -2690,6 +3682,26 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method />
     </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -2703,6 +3715,15 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -2728,6 +3749,11 @@
         <option name="Make" enabled="false" />
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -2805,10 +3831,10 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="46334bc2-4275-4201-8d7f-920bbab7aa65" name="Default" comment="" />
-      <created>1455385600339</created>
+      <changelist id="88464717-940f-44a6-97a2-dad599c2e80a" name="Default" comment="" />
+      <created>1455428105414</created>
       <option name="number" value="Default" />
-      <updated>1455385600339</updated>
+      <updated>1455428105414</updated>
     </task>
     <servers />
   </component>
@@ -2824,10 +3850,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -2838,14 +3862,15 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -2856,58 +3881,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PdfiumAndroid/src/main/java/com/shockwave/pdfium/PdfiumCore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="123" column="7" selection-start-line="123" selection-start-column="7" selection-end-line="123" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PdfiumAndroid/src/main/java/com/shockwave/pdfium/PdfDocument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PdfiumAndroid/src/main/java/com/shockwave/pdfium/PdfActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.275862">
-          <caret line="54" column="43" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PdfiumAndroid/src/main/res/layout/activity_pdf.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PdfiumAndroid/src/main/res/layout/layout_pdf_page.xml">
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/shockwave/pdfiumtest/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/pdfium-android/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.059130434">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.76119405">
+          <caret line="42" column="73" selection-start-line="42" selection-start-column="73" selection-end-line="42" selection-end-column="73" />
           <folding />
         </state>
       </provider>

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PdfiumAndroid/PdfiumAndroid.iml" filepath="$PROJECT_DIR$/PdfiumAndroid/PdfiumAndroid.iml" />
-      <module fileurl="file://$PROJECT_DIR$/PdfiumAndroid-Demo.iml" filepath="$PROJECT_DIR$/PdfiumAndroid-Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pdfium-android/pdfium-android.iml" filepath="$PROJECT_DIR$/pdfium-android/pdfium-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pdfium-view-android.iml" filepath="$PROJECT_DIR$/pdfium-view-android.iml" />
     </modules>
   </component>
 </project>
