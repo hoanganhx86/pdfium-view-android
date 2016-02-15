@@ -60,7 +60,7 @@ public class PdfiumCore {
         PdfDocument document = new PdfDocument();
 
         document.mNativeDocPtr = nativeOpenDocument(getNumFd(fd));
-        if(document.mNativeDocPtr <= 0) Log.e(TAG, "Open document failed");
+        if(document.mNativeDocPtr == -1) Log.e(TAG, "Open document failed:"+document.mNativeDocPtr);
 
         return document;
     }

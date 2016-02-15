@@ -2,11 +2,11 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\dudu\Git\pdfium-view-android\app\build\intermediates\exploded-aar\com.github.mshockwave\pdfium-android\1.0.0\jars\classes.jar"
+        jar="C:\Users\dudu\Git\pdfium-view-android\app\build\intermediates\exploded-aar\com.shockwave\pdfium-android\1.0.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="d76de5151f131abc0b5a97466879d041aa464003">
-        <dex dex="C:\Users\dudu\Git\pdfium-view-android\app\build\intermediates\pre-dexed\debug\com.github.mshockwave-pdfium-android-1.0.0_c3da8de7feb731928edb1f052908bd7c9ce86828.jar" />
+        sha1="4c88f2a916062c6e9a6577d709e7c566b2b3371d">
+        <dex dex="C:\Users\dudu\Git\pdfium-view-android\app\build\intermediates\pre-dexed\debug\com.shockwave-pdfium-android-1.0.0_55eace9c1513159171bb37dcbb725b9bc34991a9.jar" />
     </item>
 
 </items>
