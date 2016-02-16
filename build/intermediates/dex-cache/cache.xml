@@ -2,11 +2,39 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\dudu\Git\pdfium-view-android\app\build\intermediates\exploded-aar\com.shockwave\pdfium-android\1.0.0\jars\classes.jar"
+        jar="C:\Users\dudu\Git\pdfium-view-android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="4c88f2a916062c6e9a6577d709e7c566b2b3371d">
-        <dex dex="C:\Users\dudu\Git\pdfium-view-android\app\build\intermediates\pre-dexed\debug\com.shockwave-pdfium-android-1.0.0_55eace9c1513159171bb37dcbb725b9bc34991a9.jar" />
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\dudu\Git\pdfium-view-android\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_99b5f46625789b80f92c7b2b5f479d5b4b1fc9cd.jar" />
+    </item>
+    <item
+        jar="C:\Users\dudu\Git\pdfium-view-android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\dudu\Git\pdfium-view-android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.1_e429a23c6d72d7d6f69cf94929bb8a0e15349e98.jar" />
+    </item>
+    <item
+        jar="C:\Users\dudu\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\dudu\Git\pdfium-view-android\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_6c5199e0faed366fc674a1c6a6a8a438e3f6fcbf.jar" />
+    </item>
+    <item
+        jar="C:\Users\dudu\Git\pdfium-view-android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\dudu\Git\pdfium-view-android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_8a22d70141070c9a890d50f4450bb8e9bfc07258.jar" />
+    </item>
+    <item
+        jar="C:\Users\dudu\Git\pdfium-view-android\app\build\intermediates\exploded-aar\pdfium-view-android\pdfium-android\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="16e5d80a0b5360ea6a6248e685053286d099f882">
+        <dex dex="C:\Users\dudu\Git\pdfium-view-android\app\build\intermediates\pre-dexed\debug\pdfium-view-android-pdfium-android-unspecified_c8fe62c5ed67873c5aa26609c66893e08ee733b6.jar" />
     </item>
 
 </items>

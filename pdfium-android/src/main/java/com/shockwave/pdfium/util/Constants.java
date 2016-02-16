@@ -22,50 +22,12 @@ public interface Constants {
 
     static final boolean DEBUG_MODE = false;
 
-    /** Size of the minimum, in percent of the component size */
-    static final float MINIMAP_MAX_SIZE = 200f;
+    static final float MAXIMUM_ZOOM = 10;
 
-    /** Number of pages loaded (default 3) */
-    static final int LOADED_SIZE = 10;
+    static final float MINIMUM_ZOOM = 1;
 
-    /** Between 0 and 1, the thumbnails quality (default 0.2) */
-    static final float THUMBNAIL_RATIO = 1f;
+    static final int QUICK_MOVE_THRESHOLD_TIME = 400, //
 
-    /**
-     * The height of the rendered parts (default 256)
-     * Tinier : a little bit slower to have the whole page rendered but more reactive.
-     * Bigger : user will have to wait longer to have the first visual results
-     */
-    static final float PART_SIZE = 200;
-
-    /** Transparency of masks around the main page (between 0 and 255, default 50) */
-    static final int MASK_ALPHA = 50;
-
-    /** The size of the grid of loaded images around the current point */
-    static final int GRID_SIZE = (int)(25600/PART_SIZE);
-
-    public interface Cache {
-
-        /** The size of the cache (number of bitmaps kept) */
-        static final int CACHE_SIZE = (int) GRID_SIZE;
-
-        static final int THUMBNAILS_CACHE_SIZE =1000;
-    }
-
-    public interface Pinch {
-
-        static final float MAXIMUM_ZOOM = 10;
-
-        static final float MINIMUM_ZOOM = 1;
-
-        /**
-         * A move must be quicker than this duration and longer than
-         * this distance to be considered as a quick move
-         */
-        static final int QUICK_MOVE_THRESHOLD_TIME = 400, //
-
-        QUICK_MOVE_THRESHOLD_DISTANCE = 50;
-
-    }
+    QUICK_MOVE_THRESHOLD_DISTANCE = 50;
 
 }

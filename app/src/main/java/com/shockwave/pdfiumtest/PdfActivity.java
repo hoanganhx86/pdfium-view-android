@@ -10,6 +10,7 @@ import android.widget.Toast;
 
 import com.shockwave.pdfium.PdfView;
 import com.shockwave.pdfium.listener.OnErrorOccurredListener;
+import com.shockwave.pdfium.listener.OnLoadCompleteListener;
 import com.shockwave.pdfium.listener.OnPageChangedListener;
 
 /**
@@ -23,7 +24,6 @@ public class PdfActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pdf);
         pdf = (PdfView) findViewById(R.id.pdfium_view);
-        final TextView pages = (TextView) findViewById(R.id.pdf_pages);
         Intent intent = getIntent();
         Uri fileUri;
         if( (fileUri = intent.getData()) == null){
@@ -35,17 +35,19 @@ public class PdfActivity extends AppCompatActivity {
 
                     @Override
                     public void errorOccured() {
-                        Log.d("hola", "funca? :c");
-                        Toast.makeText(PdfActivity.this, "Error leyendo archivo", Toast.LENGTH_LONG);
+                        Log.d("PdfActivirtListener", "An error occured.");
                     }
                 })
                 .onPageChanged(new OnPageChangedListener() {
                     @Override
                     public void pageChanged(int page, int pageCount) {
-                        String actualPage = "" + page + "/" + pageCount;
-                        pages.setText(actualPage);
-                        pages.refreshDrawableState();
-                        Log.d("Texto cambiado", "Yes");
+                        Log.d("PdfActivityListener", "Page changed.");
+                    }
+                })
+                .onLoad(new OnLoadCompleteListener() {
+                    @Override
+                    public void loadComplete(int nbPages) {
+                        Log.d("PdfActivityListener","Load complete.");
                     }
                 })
                 .load();

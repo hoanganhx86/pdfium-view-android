@@ -228,7 +228,7 @@ public class DragPinchListener implements OnTouchListener {
 
         if (onPinchListener != null) {
             onPinchListener.onPinch(zoomCurrentDistance / zoomLastDistance, //
-                    new PointF(event.getX(POINTER1), event.getY(POINTER1)));
+                    new PointF(event.getX(POINTER1),event.getY(POINTER1)));
         }
 
         zoomLastDistance = zoomCurrentDistance;

@@ -8,8 +8,8 @@ android {
     buildToolsVersion "23.0.2"
 
     defaultConfig {
-        minSdkVersion 11
-        targetSdkVersion 21
+        minSdkVersion 9
+        targetSdkVersion 22
         versionCode 1
         versionName "1.0"
     }
@@ -32,18 +32,3 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:22.0.0'
 }
-
-version = '1.0.0'
-group = 'com.shockwave'
-
-
-configurations {
-    archives {
-        extendsFrom configurations.default
-    }
-}
-
-signing {
-    sign configurations.archives
-}
-
